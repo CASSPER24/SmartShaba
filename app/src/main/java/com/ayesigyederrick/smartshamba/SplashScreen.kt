@@ -12,7 +12,7 @@ class SplashScreen : AppCompatActivity() {
 
         //Handler method to delay splash screen count
         Handler().postDelayed({
-            val intent = Intent(this, MainActivity::class.java)
+            val intent = Intent(this, Login::class.java)
             startActivity(intent)
             finish()
         },3000)
