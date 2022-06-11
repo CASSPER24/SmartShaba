@@ -5,15 +5,15 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.TextView
 
-class Login : AppCompatActivity() {
+class Register : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_login)
-        title = "LogIn"
+        setContentView(R.layout.activity_register)
+        title = "SignUP"
 
-        val gotoRegisterPage = findViewById<TextView>(R.id.text_gotoRegister)
-        gotoRegisterPage.setOnClickListener{
-            startActivity(Intent(this, Register::class.java))
+        val gotoLoginPage = findViewById<TextView>(R.id.text_gotoLogIn)
+        gotoLoginPage.setOnClickListener{
+            startActivity(Intent(this, Login::class.java))
         }
     }
 }
