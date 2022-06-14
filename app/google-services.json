@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "547158410767",
+    "project_id": "my-farm-60121",
+    "storage_bucket": "my-farm-60121.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:547158410767:android:e327e1782e6872772a057a",
+        "android_client_info": {
+          "package_name": "com.ayesigyederrick.smartshamba"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "547158410767-gv8kmlbto4in2het7j5tf0nls9bgml36.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdnkt1U0Qf_MBwyz6HKWLmEpIvnuYziMM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "547158410767-gv8kmlbto4in2het7j5tf0nls9bgml36.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

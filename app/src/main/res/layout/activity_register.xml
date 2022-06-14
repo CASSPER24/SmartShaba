@@ -55,6 +55,7 @@
             android:id="@+id/user_name_register"
             android:layout_width="341dp"
             android:layout_height="match_parent"
+            android:textColor="@color/white"
             android:layout_marginStart="16dp"
             android:layout_marginTop="44dp"
             android:layout_marginEnd="16dp"
@@ -68,7 +69,7 @@
 
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/email_register"
+        android:id="@+id/textinputlayout0"
         style="@style/LoginTextInputLayoutStyle"
         android:layout_width="365dp"
         android:layout_height="55dp"
@@ -88,7 +89,7 @@
 
 
     <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/username_login"
+            android:id="@+id/email_register"
             android:layout_width="341dp"
             android:layout_height="match_parent"
             android:layout_marginStart="16dp"
@@ -114,7 +115,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.533"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/email_register"
+        app:layout_constraintTop_toBottomOf="@+id/textinputlayout0"
         app:passwordToggleEnabled="true"
         app:passwordToggleTint="@color/white"
         app:startIconDrawable="@drawable/ic_lock"
@@ -178,6 +179,7 @@
         android:layout_height="47dp"
         android:layout_marginTop="24dp"
         android:text="Sign Up"
+        android:onClick="GoToMain"
         android:outlineSpotShadowColor="@color/black"
         android:backgroundTint="#5F23E6"
         android:textColor="@color/white"
